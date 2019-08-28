@@ -8,4 +8,12 @@ class Dog
     @name=new_name
   end
   
+  def breed(kind_of_dog)
+    @breed = kind_of_dog
+  end
+  
+  def breed=(change)
+    @breed=change
+  end
+  
 end
